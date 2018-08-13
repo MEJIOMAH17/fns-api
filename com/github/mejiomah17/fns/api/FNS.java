@@ -1,3 +1,5 @@
+package com.github.mejiomah17.fns.api;
+
 import com.google.gson.Gson;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;

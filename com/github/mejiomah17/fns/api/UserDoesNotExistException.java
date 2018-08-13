@@ -1,3 +1,5 @@
+package com.github.mejiomah17.fns.api;
+
 public class UserDoesNotExistException extends Exception {
     public UserDoesNotExistException() {
     }

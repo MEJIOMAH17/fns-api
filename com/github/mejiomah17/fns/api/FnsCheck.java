@@ -1,3 +1,4 @@
+package com.github.mejiomah17.fns.api;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
