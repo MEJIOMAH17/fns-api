@@ -13,10 +13,10 @@ public class Item {
     private int nds;
     @SerializedName("sum")
     @Expose
-    private int sum;
+    private double sum;
     @SerializedName("quantity")
     @Expose
-    private int quantity;
+    private double quantity;
     @SerializedName("paymentType")
     @Expose
     private int paymentType;
@@ -40,7 +40,7 @@ public class Item {
         this.nds = nds;
     }
 
-    public int getSum() {
+    public double getSum() {
         return sum;
     }
 
@@ -48,7 +48,7 @@ public class Item {
         this.sum = sum;
     }
 
-    public int getQuantity() {
+    public double getQuantity() {
         return quantity;
     }
 
