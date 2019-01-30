@@ -6,7 +6,7 @@
 
     <groupId>com.markkosichkin</groupId>
     <artifactId>fns</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <build>
         <plugins>
             <plugin>
@@ -43,5 +43,11 @@
         </dependency>
     </dependencies>
 
-
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>mekosichkin.ru-releases</name>
+            <url>https://mekosichkin.ru/artifactory/libs-release</url>
+        </repository>
+    </distributionManagement>
 </project>
